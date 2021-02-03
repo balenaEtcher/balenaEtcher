@@ -52,7 +52,7 @@ Here at balena, thousands of users are working on our initial stage of work, and
 To our surprise, nothing was found to meet our needs. Therefore, we created Etcher, an SD card flashing application that is easy for users, extensible for developers and works on any platform.
 
 # Change Log
-**V1.5.113**
+**v1.5.113**
 - Shows the first error for each disk (not the last)
 - docs: add links to documentation
 - docs: macOS version update
@@ -66,7 +66,7 @@ To our surprise, nothing was found to meet our needs. Therefore, we created Etch
 - Fixed efficient calculation of blinking speed for compressed images
 - Changed some border colors to get higher contrast
 
-**V1.5.112**
+**v1.5.112**
 - Added representation and sys-class-rgb-led to repo. in YML format
 - Sys-class-rgb-led update from 2.1.0 to 2.1.1
 - Fixed layout (when shown project is not displayed)
@@ -74,7 +74,7 @@ To our surprise, nothing was found to meet our needs. Therefore, we created Etch
 - Fixed height of modal content on Windows
 - Set useContentSize to true so the size is the same across all platforms
 
-**V1.5.111**
+**v1.5.111**
 - Uses a different icon when the source disk is not available
 - Allowed selection of locked SD card as source disk
 - Removed «check if write was successful» option. The check is always on, click the «Skip» button to skip it.
@@ -87,30 +87,30 @@ To our surprise, nothing was found to meet our needs. Therefore, we created Etch
 - Added skip function for check
 - Success screen redesigned
 
-**B1.5.109**
+**v1.5.109**
 - Fixed elevation bug on Windows when username contains ampersand
 
-**B1.5.108**
+**v1.5.108**
 - Fixed content not loading when app path contains special characters
 
-**B1.5.107**
+**v1.5.107**
 - Re-enabled trimming ext partitions on 32-bit Windows
 - Rework system and large disk processing logic
 - Added clone disk workflow
 
-**B1.5.106**
+**v1.5.106**
 - Disabled trimming ext partitions in 32-bit windows until it is fixed
 - Fixed opening zip files from servers accepting range headers
 
-**B1.5.105**
+**v1.5.105**
 - Etcher-sdk updated to version 4.1.26
 - URL selector cancel button overrides persistent URL selection
 
-**B1.5.104**
+**v1.5.104**
 - Fixed error writing configuration file
 - Electron update to V9.2.1
 
-**B1.5.103**
+**v1.5.103**
 - Upgrade version to ^ 17
 - Electron update to 9.2.0
 - Etcher-sdk update to version ^ 4.1.23
@@ -120,7 +120,7 @@ To our surprise, nothing was found to meet our needs. Therefore, we created Etch
 - Don’t use lodash in child-writer.js
 - Optimize svgs
 
-**B1.5.102**
+**v1.5.102**
 - Fixed truncated images blinking, fix big dmgs blinking
 - Electron 9.1.1
 - Removed bluebird from main process, reduce lodash usage
